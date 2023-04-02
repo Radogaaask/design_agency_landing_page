@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'Nunito Sans', sans-serif;
+    src: url("./Fonts/NunitoSans-Regular.ttf");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Nunito Sans', sans-serif;
+    src: url("./Fonts/NunitoSans-Italic.ttf");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: url("./Fonts/YesevaOne-Regular");
+    font-style: normal;
+    font-weight: 400;
+}
+
+.body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header {
+    background-color: #131313;
+}
+
+.header_container {
+    max-width: 1256px;
+    height: 90px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    font-style: normal;
+    color: #E3B873;
+    cursor: pointer;
+}
+
+.navigation__item {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    font-style: normal;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.header__telephone /* Добавить наклон текста */ {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    font-style: normal;
+    color: #E3B873;
+    cursor: pointer;
+}
+
+.header__button {
+    padding: 13px 33px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    background: #E3B873;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+}
+
+.header__button:active {
+    transform: translateY(1px);
+}
+
+.navigation__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 47px;
+    list-style-type: none;
+}
+
+.main_section {
+    background-image: url(../Images/PNG/turnkey_repair.png);
+    height: 707px;
+    position: relative;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
+
+.main_section_container {
+    margin: 0 auto;
+    max-width: 1172px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    height: 100%;
+}
+
+.main_section__tittle {
+    font-family: 'Yeseva One';
+    font-weight: 400;
+    font-style: normal;
+    line-height: 53px;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 1;
+}
+
+.main_section__text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    position: relative;
+    z-index: 1;
+}
+
+.main_section__button_menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.main_section__button_menu_left {
+    padding: 19px 41px;
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    cursor: pointer;
+    outline: 0;
+    border: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.main_section__button_menu_right {
+    padding: 18px 23px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    outline: 0;
+    position: relative;
+    z-index: 1;
+}
+
+.main_section__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .7);
+}
+
+.completed_projects {
+    background-color: #131313;
+    padding-top: 89px;
+    padding-bottom: 259px;
+}
+
+.completed_projects_container {
+    max-width: 1171px;
+    margin: 0 auto;
+}
+
+.completed_projects_objects {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 61px;
+    margin-bottom: 45px;
+    margin-right: 80px;
+}
+
+.completed_projects_objects__item {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.3);
+}
+
+.completed_projects_objects__item_yellow {
+    color: #E3B873;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+.completed_projects_objects_block {
+    display: flex;
+    gap: 50px;
+}
+
+.completed_projects_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.completed_projects_info__tittle {    
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    display: flex;
+    align-items: flex-start;
+    margin: 0;
+}
+
+.completed_projects_info__discription {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.completed_projects_info__data {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 34px;
+    grid-row-gap: 0px;
+    margin-bottom: 72px;
+    }
+    
+    .data-block-1 { grid-area: 1 / 1 / 2 / 2; }
+    .data-block-2 { grid-area: 1 / 2 / 2 / 3; }
+    .data-block-3 { grid-area: 2 / 1 / 3 / 2; }
+    .data-block-4 { grid-area: 2 / 2 / 3 / 3; }
+   
+.completed_projects_info__data-block_yellow {
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.completed_projects_info__data-block_white {
+    font-family: 'Nunito Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.completed_projects_image-wrapper {
+    max-width: 679px;
+    max-height: 482px;
+    border: none;
+}
+
+.completed_projects_image {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.online_control_container {
+    max-width: 817px;
+    margin: 0 auto;
+}
+
+.online_control_background-image {
+    background-image: url(../Images/PNG/house_repair.png);
+    height: 434px;
+    position: relative;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
